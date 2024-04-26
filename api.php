@@ -1,5 +1,5 @@
 <?php
-$ApiKey = "1b006de33827f13d38f9419bc24ef83e";
+$ApiKey = "YOUR-API-KEY";
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['city'])) {
     $city = $_POST['city'];
